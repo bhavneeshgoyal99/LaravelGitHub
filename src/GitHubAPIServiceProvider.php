@@ -1,6 +1,6 @@
 <?php
 
-namespace Akashverma3333\LaravelGitHub;
+namespace Bhavneeshgoyal99\LaravelGitHub;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,10 +15,10 @@ class GitHubAPIServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) { // Ensure commands only register in CLI
             $this->commands([
-                \Akashverma3333\LaravelGitHub\Commands\RepoCommand::class,
-                \Akashverma3333\LaravelGitHub\Commands\BranchCommand::class,
-                \Akashverma3333\LaravelGitHub\Commands\LoginCommand::class,
-                \Akashverma3333\LaravelGitHub\Commands\LogoutCommand::class,
+                \Bhavneeshgoyal99\LaravelGitHub\Commands\RepoCommand::class,
+                \Bhavneeshgoyal99\LaravelGitHub\Commands\BranchCommand::class,
+                \Bhavneeshgoyal99\LaravelGitHub\Commands\LoginCommand::class,
+                \Bhavneeshgoyal99\LaravelGitHub\Commands\LogoutCommand::class,
             ]);
         }
     }
