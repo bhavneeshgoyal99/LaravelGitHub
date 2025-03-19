@@ -19,7 +19,7 @@ class GitHubAPIServiceProvider extends ServiceProvider
                 \Bhavneeshgoyal99\LaravelGitHub\Commands\BranchCommand::class,
                 \Bhavneeshgoyal99\LaravelGitHub\Commands\LoginCommand::class,
                 \Bhavneeshgoyal99\LaravelGitHub\Commands\LogoutCommand::class,
-                \Bhavneeshgoyal99\LaravelGitHubAPIs\Commands\CheckoutBranchCommand::class,
+                \Bhavneeshgoyal99\LaravelGitHub\Commands\CheckoutBranchCommand::class,
             ]);
         }
     }
