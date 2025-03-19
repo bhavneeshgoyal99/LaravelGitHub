@@ -1,6 +1,6 @@
 <?php
 
-namespace Akashverma3333\LaravelGitHubAPIs\Commands;
+namespace Bhavneeshgoyal99\LaravelGitHubAPIs\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Process;
